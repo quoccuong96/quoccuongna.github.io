@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+#wrap {
+    max-width: 1000px;
+    margin: auto;
+}
+body {
+    background-color: #e5e5e5;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+#main-menu {
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(23, 184, 130);
+}
+#main-menu a{
+    font-size: 25px;
+    color: rgb(242, 248, 246);
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#footer {
+    text-align: center;
+}
+#main-menu a:hover {
+    color: blue;
+}
+#main-menu a.active {
+    color: black;
+}
+#main-content {
+    background-color: rgb(219, 218, 218);
+}

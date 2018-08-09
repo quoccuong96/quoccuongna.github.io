@@ -1,0 +1,8 @@
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+.box:hover {
+    background-color: rgb(99, 158, 143);
+}
